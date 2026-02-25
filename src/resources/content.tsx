@@ -130,13 +130,21 @@ const about: About = {
             ensuring high availability and minimal downtime.
           </p>,
           <p style={{ textAlign: "justify" }}>
-            Deliver Tier 1 and Tier 2 technical support across enterprise systems, 
-            ensuring high availability and minimal downtime.
+            Perform API testing using Postman and database validation through PgAdmin
+            during diagnostics and QA validation.
           </p>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <p style={{ textAlign: "justify" }}>
+            Support deployment and user acceptance testing (UAT) of national-scale 
+            systems such as PhilSys.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Contribute to internal process automation using Python to streamline 
+            repetitive operational workflows.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Maintain structured documentation aligned with Quality Management 
+            Systems for audit readiness.
+          </p>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
