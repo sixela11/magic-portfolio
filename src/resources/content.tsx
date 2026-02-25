@@ -2,14 +2,15 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Alexis Earvin",
+  lastName: "Sañosa",
+  name: `Alexis Earvin`,
+  role: "Automation & AI Workflow Specialist",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "alexissanosa@gmail.com",
+  location: "Asia/Manila", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
+  //languages: ["English", "Bahasa"], optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,13 +26,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/sixela11",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://ph.linkedin.com/in/alexis-earvin-sanosa",
     essential: true,
   },
   {
@@ -40,12 +41,7 @@ const social: Social = [
     link: "https://www.instagram.com/once_ui/",
     essential: false,
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
+ 
   {
     name: "Email",
     icon: "email",
@@ -60,7 +56,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Connecting data, workflows, and AI</>,
   featured: {
     display: true,
     title: (
@@ -101,12 +97,24 @@ const about: About = {
     display: true,
     title: "Introduction",
     description: (
-      <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
-      </>
-    ),
+  <>
+    <p style={{ textAlign: "justify" }}>
+      I build automation systems that make work faster, easier, and more reliable.
+    </p>
+    <p style={{ textAlign: "justify" }}>  
+      With a background in Python automation, database workflows, and large-scale
+      data processing, I transform repetitive manual tasks into efficient automated
+      solutions. I’ve developed scripts and pipelines that process millions of
+      records, integrate APIs, and generate reports that support real-world
+      operations and the convergence of design and technology.
+    </p>
+
+    <p style={{ textAlign: "justify", marginTop: "1rem" }}>
+      I’m currently expanding into AI-powered automation and workflow tools to
+      help businesses save time, reduce errors, and scale more effectively.
+    </p>
+  </>
+),
   },
   work: {
     display: true, // set to false to hide this section
