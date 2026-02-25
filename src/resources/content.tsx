@@ -72,7 +72,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Alexis, I build intelligent automation systems that save time, reduce errors, and scale operations.
 </>
   ),
 };
@@ -121,14 +121,18 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Philippine Statistics Authority",
+        timeframe: "2024 - Present",
+        role: "Computer Maintenance Technologist II",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
+          <p style={{ textAlign: "justify" }}>
+            Deliver Tier 1 and Tier 2 technical support across enterprise systems, 
+            ensuring high availability and minimal downtime.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Deliver Tier 1 and Tier 2 technical support across enterprise systems, 
+            ensuring high availability and minimal downtime.
+          </p>,
           <>
             Spearheaded the integration of AI tools into design workflows, enabling designers to
             iterate 50% faster.
