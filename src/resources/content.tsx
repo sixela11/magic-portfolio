@@ -263,6 +263,140 @@ const about: About = {
       },
 
       {
+        title: "Automated Email Attachment Management System",
+        description: (
+          <>
+            <ul style={{ paddingLeft: "1.2rem" }}>
+              <li>
+                Designing automated task workflows using Notion databases and AI-assisted logic.
+              </li>
+              <li>
+                API-based automation to trigger task creation and workflow updates.
+              </li>
+              <li>
+                Focused on reducing manual tracking and improving operational visibility.
+              </li>
+            </ul>
+          </>
+        ),
+        tags: [
+          { name: "AI Automation", icon: "cpu" },
+          { name: "Workflow Automation", icon: "workflow" },
+          { name: "Notion API", icon: "notion" },
+          { name: "Python", icon: "python" },
+          { name: "API Integration", icon: "link" },
+          { name: "Process Optimization", icon: "activity" },
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Next.js project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Lead Intake & CRM Automation System",
+        description: (
+          <>
+            <ul style={{ paddingLeft: "1.2rem" }}>
+              <li>
+                Built a multi-step automation workflow using Zapier to eliminate manual lead processing.
+              </li>
+              <li>
+                Captures Google Form submissions and logs structured data into Google Sheets.
+              </li>
+              <li>
+                Cleans and standardizes data using Zapier Formatter.
+              </li>
+              <li>
+                Routes leads dynamically using conditional logic (Zapier Paths).
+              </li>
+              <li>
+                Automatically updates CRM status in Notion.
+              </li>
+              <li>
+                Sends Slack notifications and triggers automated email confirmations.
+              </li>
+              <li>
+                Uses Storage by Zapier for state-based logic and tracking.
+              </li>
+              <li>
+                Reduced response time and eliminated manual lead triage.
+              </li>
+            </ul>
+          </>
+        ),
+        tags: [
+          { name: "Zapier", icon: "zap" },
+          { name: "Workflow Automation", icon: "workflow" },
+          { name: "Google Forms", icon: "file-text" },
+          { name: "Google Sheets", icon: "sheet" },
+          { name: "Notion", icon: "notion" },
+          { name: "Slack", icon: "slack" },
+          { name: "Gmail", icon: "mail" },
+          { name: "CRM Automation", icon: "database" },
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Lead Intake & CRM Automation Workflow",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Automated Email Attachment Management System",
+        description: (
+          <>
+            <ul style={{ paddingLeft: "1.2rem" }}>
+              <li>
+                Built a dynamic file-processing automation using Zapier.
+              </li>
+              <li>
+                Detects new email attachments automatically (Gmail trigger)
+              </li>
+              <li>
+                Handles multiple attachments using Looping by Zapier
+              </li>
+              <li>
+                Extracts and formats email metadata (date, sender name)
+              </li>
+              <li>
+                Standardizes file naming conventions (YYYY-MM-DD-Sender-Filename)
+              </li>
+              <li>
+                Renames each attachment dynamically before upload
+              </li>
+              <li>
+                Uploads files individually into structured Google Drive folders
+              </li>
+              <li>
+                Eliminates duplicate or comma-merged filenames caused by line-item data
+              </li>
+            </ul>
+          </>
+        ),
+        tags: [
+          { name: "Zapier", icon: "zap" },
+          { name: "Email Automation", icon: "mail" },
+          { name: "Gmail", icon: "mail" },
+          { name: "Google Drive", icon: "folder" },
+          { name: "Workflow Automation", icon: "workflow" },
+          { name: "File Management", icon: "file" },
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Lead Intake & CRM Automation Workflow",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
         title: "AI Workflow Automation",
         description: (
           <>
