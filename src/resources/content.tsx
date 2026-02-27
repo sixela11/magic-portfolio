@@ -118,7 +118,7 @@ const about: About = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Professional Experience",
     experiences: [
       {
         company: "Philippine Statistics Authority",
@@ -135,7 +135,7 @@ const about: About = {
           </p>,
           <p style={{ textAlign: "justify" }}>
             Support deployment and user acceptance testing (UAT) of national-scale 
-            systems such as PhilSys.
+            systems.
           </p>,
           <p style={{ textAlign: "justify" }}>
             Contribute to internal process automation using Python to streamline 
@@ -157,25 +157,50 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Philippine Statistics Authority",
+        timeframe: "2020 – 2024",
+        role: "Information System Analyst",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <p style={{ textAlign: "justify" }}>
+            Monitored backend systems to ensure real-time system availability 
+            and escalated critical incidents.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Authored and executed test cases for system updates and new deployments.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Coordinated between developers and end-users to diagnose and resolve 
+            application bugs.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Delivered technical documentation and training to internal users for 
+            enterprise applications.
+          </p>
+        ],
+        images: [],
+      },
+      {
+        company: "Competitive Card Solutions Phils. Inc.",
+        timeframe: "2019 – 2020",
+        role: "Senior Technical Support Engineer",
+        achievements: [
+          <p style={{ textAlign: "justify" }}>
+            Provided multi-channel technical support for enterprise clients.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Conducted root cause analysis for recurring system issues and 
+            implemented preventative solutions.
+          </p>,
+          <p style={{ textAlign: "justify" }}>
+            Supported QA testing and product validation initiatives.
+          </p>
         ],
         images: [],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
@@ -188,61 +213,84 @@ const about: About = {
       },
     ],
   },
-  technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    technical: {
+    display: true,
+    title: "Technical Projects",
     skills: [
       {
-        title: "Figma",
+        title: "Python Data Pipeline Automation",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            <p>
+              <a
+                href="https://github.com/sixela11/python-data-pipeline-automation"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontWeight: 600, textDecoration: "underline" }}
+              >
+                GitHub Project
+              </a>
+            </p>
+            
+
+            <ul style={{ marginTop: "0.75rem", paddingLeft: "1.2rem" }}>
+              <li>
+                Designed and implemented an automated data processing pipeline using Python.
+              </li>
+              <li>
+                Built ingestion, transformation, validation, and export logic to reduce manual Excel consolidation tasks.
+              </li>
+              <li>
+                Structured code using modular scripting practices and logging for maintainability.
+              </li>
+              <li>
+                Demonstrates real-world workflow automation and operational efficiency improvements.
+              </li>
+            </ul>
+          </>
         ),
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
+          { name: "Python", icon: "python" },
+          { name: "CSV", icon: "file" },
+          { name: "Data Processing", icon: "database" },
+          { name: "Automation", icon: "zap" },
+          { name: "ETL", icon: "shuffle" },
+          { name: "API Integration", icon: "link" },
+          { name: "PostgreSQL", icon: "database" },
+          { name: "Logging", icon: "terminal" },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [], // removed placeholder images for cleaner automation portfolio look
       },
+
       {
-        title: "Next.js",
+        title: "AI Workflow Automation",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            <ul style={{ paddingLeft: "1.2rem" }}>
+              <li>
+                Designing automated task workflows using Notion databases and AI-assisted logic.
+              </li>
+              <li>
+                API-based automation to trigger task creation and workflow updates.
+              </li>
+              <li>
+                Focused on reducing manual tracking and improving operational visibility.
+              </li>
+            </ul>
+          </>
         ),
         tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
+          { name: "AI Automation", icon: "cpu" },
+          { name: "Workflow Automation", icon: "workflow" },
+          { name: "Notion API", icon: "notion" },
+          { name: "Python", icon: "python" },
+          { name: "API Integration", icon: "link" },
+          { name: "Process Optimization", icon: "activity" },
         ],
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            alt: "Next.js project image",
             width: 16,
             height: 9,
           },
